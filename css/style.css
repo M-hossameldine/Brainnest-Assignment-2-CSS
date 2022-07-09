@@ -1,0 +1,113 @@
+/* header */
+header {
+  padding-top: 0.5rem;
+}
+
+.main-nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav__list {
+  list-style: none;
+}
+
+.main-nav__list-item {
+}
+
+.main-nav__link {
+  text-decoration: none;
+  color: var(--clr-primary-200);
+}
+
+/* Hero Section */
+
+.hero {
+  padding-block: 6rem;
+}
+
+.hero .container {
+  align-items: center;
+}
+
+.hero__content {
+  width: 100%;
+}
+
+.hero__title {
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.hero__description {
+  margin-bottom: 1rem;
+}
+
+.hero__media {
+  width: 100%;
+}
+
+.hero__media img {
+  margin-left: auto;
+}
+/* Information Section */
+#information {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+.gallery {
+  --gap: 2rem;
+  /* flex-wrap: wrap; */
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+
+.card {
+  width: 100%;
+  min-width: 120px;
+}
+
+.card__header {
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card__description {
+  margin-top: 0.25rem;
+}
+
+/* Testimonial */
+.testimonial {
+  padding-block: 6rem;
+}
+
+.testimonial__quote {
+  font-style: italic;
+  font-weight: light;
+}
+
+.testimonial__quotee {
+  font-weight: bold;
+  text-align: right;
+  padding-top: 0.25rem;
+}
+
+/* call to action section */
+.callToAction {
+  max-width: 56rem;
+  margin-inline: auto;
+  margin-block: 5rem;
+  padding: 3rem 1rem;
+  border-radius: 6px;
+}
+
+.callToAction .container-narrow {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* footer */
+footer {
+  padding-block: 1rem;
+}

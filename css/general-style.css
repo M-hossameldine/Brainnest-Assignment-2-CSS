@@ -1,0 +1,164 @@
+/* Robot Font Import  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+/* ----------------------- */
+/* Custom Properties */
+/* ----------------------- */
+
+:root {
+  /* colors */
+  --clr-primary-100: #fff;
+  --clr-primary-200: #f9faf8;
+  --clr-primary-900: #1f2937;
+
+  --clr-accent-400: #3882f6;
+
+  --clr-neutral-300: #e5e7eb;
+
+  /* Font sizes */
+  --fs-200: 0.875rem; /* 14px*/
+  --fs-300: 1rem; /* 16px */
+  --fs-400: 1.125rem; /* 18px */
+  --fs-600: 1.5rem; /* 24px */
+  --fs-700: 2.25rem; /* 36px */
+  --fs-800: 3rem; /* 48px */
+}
+
+/* ----------------------- */
+/* Reset                   */
+/* ----------------------- */
+
+/* Set Box Sizing for all elements */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove Margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--fs-300);
+}
+
+/* make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements & buttons easier to work with */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ----------------------- */
+/* Utility Classes         */
+/* ----------------------- */
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 75rem;
+}
+
+.container-narrow {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 52rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn--contained {
+  padding-inline: 1.5em;
+  padding-block: 0.5em;
+  border-radius: 12%;
+  border: 0px;
+}
+
+.btn--ghost {
+  display: block;
+  color: var(--clr-primary-200);
+  background-color: transparent;
+  padding-inline: 1.5em;
+  padding-block: 0.25em;
+  border-radius: 4px;
+  border: 2px solid var(--clr-primary-200);
+}
+/* Colors */
+
+.bg-primary-900 {
+  background-color: var(--clr-primary-900);
+}
+.bg-white {
+  background-color: var(--clr-primary-100);
+}
+.bg-neutral-300 {
+  background-color: var(--clr-neutral-300);
+}
+.bg-accent-400 {
+  background-color: var(--clr-accent-400);
+}
+
+.text-primary-200 {
+  color: var(--clr-primary-200);
+}
+.text-primary-900 {
+  color: var(--clr-primary-900);
+}
+.text-neutral-300 {
+  color: var(--clr-neutral-300);
+}
+.text-accent-400 {
+  color: var(--clr-accent-400);
+}
+
+.fs-200 {
+  font-size: var(--fs-200); /* 14px */
+}
+.fs-300 {
+  font-size: var(--fs-300); /* 16px */
+}
+.fs-400 {
+  font-size: var(--fs-400); /* 18px */
+}
+.fs-600 {
+  font-size: var(--fs-600); /* 24px */
+}
+.fs-700 {
+  font-size: var(--fs-700); /* 36px */
+}
+.fs-800 {
+  font-size: var(--fs-800); /* 48px */
+}
