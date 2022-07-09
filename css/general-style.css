@@ -58,8 +58,7 @@ body {
 }
 
 /* make images easier to work with */
-img,
-picture {
+img {
   max-width: 100%;
   display: block;
 }
